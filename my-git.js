@@ -5,7 +5,10 @@
 not(False or True)
 
  testnew +555
+<<<<<<< HEAD
  //deleted
+=======
+>>>>>>> play-with-git
 
 
  //Testing QA conflict
