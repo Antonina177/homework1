@@ -5,7 +5,7 @@
 not(False or True)
 
  testnew +555
- //some changes
+ //deleted
 
 
  //Testing QA conflict
