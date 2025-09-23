@@ -6,5 +6,4 @@ not(False or True)
 
  //Testing QA con+ddddddd
  
- Мова: JavaScript132323232
- 
+ Мова: Python
