@@ -7,3 +7,5 @@ not(False or True)
  //Testing QA con+ddddddd
  
  Мова: Python
+
+ //QA tester
