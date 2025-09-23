@@ -3,3 +3,5 @@
 Логічні оператори:
 (True and True) or False
 not(False or True)
+
+//Conflict imitation
