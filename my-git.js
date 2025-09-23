@@ -7,3 +7,7 @@ not(False or True)
  //Testing QA con+ddddddd
  
  Мова: Python
+
+ new one
+
+ My new branch
