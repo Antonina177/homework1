@@ -4,6 +4,6 @@
 (True and True) or False
 not(False or True)
 
- //Testing QA conflict
+ //Testing QA con
  
  
