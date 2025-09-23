@@ -4,4 +4,6 @@
 (True and True) or False
 not(False or True)
 
-//Conflict imitation
+ testnew
+ //some changes
+ 
