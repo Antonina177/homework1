@@ -8,4 +8,10 @@ not(False or True)
  
  Мова: Python
 
+<<<<<<< HEAD:my-git.js
  //QA tester
+=======
+ new one
+
+ My new branch
+>>>>>>> main:project2/my-git.js
