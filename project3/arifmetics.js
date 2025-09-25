@@ -1,48 +1,62 @@
-// arifmetics.js
-// Приклади змінних різних типів і арифметичних операцій
 
-const num1 = 10;
-const num2 = 3;
-const floatNum = 3.5;
+let a = 5;
+const b = 10;
+let c = 5;
+const d = true;
+const s = 'test';
 
-const strNum = "7";      // строка, яка містить число
-const strText = "Hello"; // звичайна строка
+console.log('===exapmle1===');
+console.log(a + b);
+console.log(a - c);
+console.log(a * b);
+console.log(a / b);
+console.log('===exapmle2===');
+console.log(c ** 2);
+console.log(c ** b);
+console.log(b % a);
+console.log(b % b);
 
-const boolTrue = true;
-const boolFalse = false;
+console.log(a == b);
+console.log(a == c);
+console.log(a !== b);
+console.log('===exapmle===');
+console.log(a == b);
+console.log(a == c);
+console.log(a !== b);
+console.log('===example===');
+console.log(a===b);
+a = '10test'
+c = 5;
+console.log('===example===');
+console.log(a + c);
+console.log(a == c);
+console.log(a === c);
+console.log('===example===');
+c *=2;
+console.log(c);
 
-console.log('=== number with number ===');
-console.log('num1 + num2 =', num1 + num2);
-console.log('num1 - num2 =', num1 - num2);
-console.log('num1 * num2 =', num1 * num2);
-console.log('num1 / num2 =', num1 / num2);
-console.log('num1 % num2 =', num1 % num2);
-console.log('num1 ** num2 =', num1 ** num2);
+console.log('=== NaN example ===');
+console.log(s * c);
 
-console.log('\n=== number with float ===');
-console.log('num1 + floatNum =', num1 + floatNum);
-console.log('num1 - floatNum =', num1 - floatNum);
-console.log('num1 * floatNum =', num1 * floatNum);
-console.log('num1 / floatNum =', num1 / floatNum);
+console.log('=== example ===');
+a = 'srt1';
+c = 'str2'
+console.log(a > c);
 
-console.log('\n=== string with string ===');
-console.log('strText + " world" =', strText + ' world');
+console.log('=== example0 ===');
+a = 'srt';
+c = 'string'
+console.log(a > c);
+console.log(a < c);
+console.log(a = c);
 
-console.log('\n=== number with string ===');
-console.log('num1 + strNum =', num1 + strNum);   // + зі строкою = конкатенація
-console.log('num1 - strNum =', num1 - strNum);   // - змушує JS привести рядок до числа
-console.log('num1 * strNum =', num1 * strNum);
-console.log('num1 / strNum =', num1 / strNum);
+console.log('=== example9 ===');
+console.log(d + c);
+console.log(d > c);
+c = 's';
+console.log(d > c);
 
-console.log('\n=== boolean arithmetic ===');
-console.log('boolTrue + boolFalse =', boolTrue + boolFalse); // true->1, false->0
-console.log('boolTrue + num2 =', boolTrue + num2);
-console.log('num2 * boolTrue =', num2 * boolTrue);
-console.log('strNum + boolTrue =', strNum + boolTrue); // рядок + булеве -> конкатенація
-
-console.log('\n=== explicit conversion ===');
-console.log('+strNum + num1 =', +strNum + num1);              // унарний + перетворює рядок у число
-console.log('Number(strNum) + num1 =', Number(strNum) + num1);
-
-console.log('\n=== NaN example ===');
-console.log('"abc" * 2 =', "abc" * 2); // множення нечислової строки -> NaN
+console.log('=== example10 ===');
+c = 10;
+c++;
+console.log(c);
