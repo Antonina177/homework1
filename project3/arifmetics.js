@@ -60,3 +60,8 @@ console.log('=== example11===');
 c = 10;
 c++;
 console.log(c);
+
+console.log('=== example12===');
+c = 10;
+c--;
+console.log(c);
