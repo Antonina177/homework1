@@ -37,3 +37,25 @@ console.log('=== example6===');
 console.log(d > c);
 c = 's';
 console.log(d > c);
+
+console.log('=== example7===');
+let x = true;
+let y = false;
+console.log(x||y);
+console.log(x&&y);
+console.log(!x);
+console.log(!y);
+
+console.log('=== example8===');
+console.log(!!1);       
+console.log(!!0);       
+console.log(!!"Hello"); 
+console.log(!!"");  
+
+console.log('=== example9===');
+let q = 'JS';
+let w = null;
+console.log(q ?? w);  
+
+let t = 0;
+console.log(t ?? w);       
