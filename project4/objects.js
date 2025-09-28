@@ -41,3 +41,12 @@ console.log('============');
 console.log(Object.values(fruits.apple));
 console.log('============');
 console.log(Object.entries(fruits.apple));
+
+fruits['banana'] = {
+    colour: 'yellow',
+    size: 'big',
+    flavour: 'very sweet'
+};
+
+console.log('======Example3======');
+console.log(fruits);
