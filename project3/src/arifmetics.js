@@ -7,6 +7,7 @@ const s = 'test';
 
 console.log('===exapmle1===');
 console.log(a + b);
+console.log(a + c);
 console.log(a - c);
 console.log(a * b);
 console.log(a / b);
