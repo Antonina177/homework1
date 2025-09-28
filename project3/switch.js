@@ -27,3 +27,25 @@ switch (a) {
     default:
         console.log(a);
 }
+
+
+const something = 'India';
+switch (something) {
+    case 1:
+        console.log('Wrong');
+        break;
+    case 2:
+        console.log(false);
+        break;
+    case 3:
+        console.log(a==3);
+        break;
+    case 4:
+        console.log(a===4);
+        break;
+    case 'India':
+        console.log(something);
+        break;
+}
+
+
