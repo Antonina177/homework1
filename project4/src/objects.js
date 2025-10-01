@@ -50,3 +50,45 @@ fruits['banana'] = {
 
 console.log('======Example3======');
 console.log(fruits);
+
+console.log('======Example4======');
+
+  const person = {
+    name: 'Anna',
+    info: [ 
+        {
+        bio:
+        {
+         age: 25,
+         gender: 'female',
+         nationality: 'ukrainian'
+        },
+        hobbies:
+        {
+         winter:'hiking',
+         summer: 'swimming'
+        }
+    },
+    {
+    family:
+    {
+     mother: {
+        name: 'Inna',
+        age: 50
+     },
+     father: {
+        name: 'Yurii',
+        age: 60
+     }
+    }
+    }
+    ],
+    printInfo: function() {
+        console.log(this.name + " has hobbies " + Object.values(this.info[0].hobbies));
+  }
+};
+person.printInfo();
+
+  
+    
+  
