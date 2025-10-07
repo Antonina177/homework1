@@ -84,11 +84,10 @@ console.log('======Example4======');
     }
     ],
     printInfo: function() {
-        console.log(this.name + " has hobbies " + Object.values(this.info[0].hobbies));
+        console.log(`${this.name} has hobbies ${Object.values(this.info[0].hobbies)}`);
   }
 };
 person.printInfo();
 
-  
-    
-  
+
+
