@@ -9,7 +9,7 @@ async function getPostWithBackup(mainUrl = MAIN_URL, backupUrl = BACKUP_URL) {
         let response = await fetch(mainUrl);
 
         if (!response.ok) {
-            console.warn(`⚠️ Main server responded with status ${response.status}. Trying backup URL.`);
+            console.warn('Main server responded with status ${response.status}. Trying backup URL.');
             response = await fetch(backupUrl);
         }
 
