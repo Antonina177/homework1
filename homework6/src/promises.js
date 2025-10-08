@@ -1,7 +1,6 @@
 
 const POST_URL = 'https://jsonplaceholder.typicode.com/posts/1';
 
-// Функція, що робить щось із отриманими даними
 function summarizePost(post) {
     return {
         id: post.id,
@@ -10,9 +9,8 @@ function summarizePost(post) {
     };
 }
 
-// Основна функція — запит і обробка
 function getPostWithPromises(url = POST_URL) {
-    console.log('🟢 Відправляю запит до:', url);
+    console.log('Sending request to:', url);
 
     fetch(url)
         .then(response => {
